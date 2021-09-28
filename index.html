@@ -137,6 +137,7 @@
            height:175px;
            background-color: rgb(27,28,29);
            position: relative;
+
           
        }
 
@@ -151,20 +152,18 @@
        }
        .last1{
         border-right: 2px solid rgb(75, 75, 75) ;
-        position: absolute;
-        top: 60px;
-        left:100px;
+        flex-basis: 300px;
+        
        } 
        .last2{
         border-right: 2px solid rgb(75, 75, 75) ;
-        position:absolute;
-        top:60px;
-        left:350px;
+        flex-basis: 200px;
+         text-align: left;
+        
        }
        .last3{
-          position: absolute;
-          top:60px;
-          right:400px;
+          flex-basis: 400px;
+          
        }
        .lists{
            position: absolute;
@@ -191,7 +190,11 @@
        }
        .last .rows{
            display: flex;
-           justify-content: center;
+           justify-content: space-around;
+           align-content: center;
+           position: relative;
+           top: 70px;
+           
        }
       
     </style>
@@ -343,7 +346,7 @@
         </div>
         <div class="last2">
             <div class="t1">Techs Used</div>
-            <div class="t2 "style=" padding-right: 80px;" >Bootstrap CSS <br><br><br></div>
+            <div class="t2 "style=" padding-right: 60px;" >Bootstrap CSS <br><br><br></div>
         </div>
         <div class="last3">
             <div class="t1">Content Disclaimer</div>
